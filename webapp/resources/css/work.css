@@ -1,0 +1,197 @@
+body {
+	font-family: Arial, sans-serif;
+	color: black;
+	padding: 0;
+	margin: 0;
+ }
+
+.container {
+	padding: 0px 10px;
+	margin: 0 auto;
+}
+.user {
+	color: blue;
+	margin-right: 10px;
+}
+.user_title {
+	padding: 0px 10px;
+	display: flex;
+	flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 4px;
+}
+h1 {
+	font-size: 1.5em;
+	color: #bc900a;
+	padding: 0;
+	margin: 0;
+	}
+h2 {
+	font-size: 1.2em;
+	color: red;
+	padding: 0;
+    line-height: 0.5;
+	}
+h3 {
+	font-size: 1.0em;
+	color: IndianRed;
+    line-height: 0.5;
+	padding: 0;
+	}
+form  {
+	padding: 0px;
+	margin: 0 auto;
+}
+select{ width: 98%;}
+
+button {
+	height: 25px;
+	padding: 0px 10px;
+	margin: 0;
+	color: black;
+	font-size: 0.8em;
+	background-color: cornsilk;
+}
+input[type="submit"]{
+	height: 25px;
+	padding: 0px 10px;
+	margin: 0;
+	color: black;
+	font-size: 0.8em;
+	background-color: cornsilk;
+}
+
+.row{
+	display: flex;
+  	flex-direction: row;
+  	justify-content: space-between;
+    max-width: 100%;
+}
+.row_info{
+	display: flex;
+  	flex-direction: row;
+}
+.hidden_line{
+    font-size: 0.8em;
+    color: aqua;
+    text-decoration: underline;
+}
+.radio_name {
+    float: left;
+    padding-right: 20px;
+}
+.radio_column_right{
+	display: table-cell;
+	width: 60%;
+	vertical-align: top;
+	padding: 0;
+}
+.radio_column_left{
+	display: table-cell;
+	width: 40%;
+	vertical-align: top;
+	padding: 0;
+}
+
+p {clear: both;}
+
+.page_column{
+	display: table;
+	width: 100%;
+	border-collapse: collapse;
+}
+.row_column{
+	display: table-row;
+}
+.item_column{
+	display: table-cell;
+	width: 50%;
+	vertical-align: top;
+	padding: 0;
+}
+.row_column .item_column:first-child{
+    border-right: 10px solid #fff;
+}
+.row_column .item_column:last-child{
+    border-left: 10px solid #fff;
+}
+.scroll_table table{
+    table-layout: fixed;
+    border-bottom: none;
+    width: 1200px;
+}
+.scroll_table th{
+    text-align: center;
+    padding: 3px;
+    border: 1px solid black;
+}
+.scroll_table_body table{
+    width: 1200px;
+    overflow: auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-bottom: none;
+}
+.scroll_table_body td{
+    text-align: left;
+    font-size: 0.8em;
+    padding: 3px;
+    vertical-align: top;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid black;
+}
+.width_cabinet{ width: 150px;}
+.width_address{ width: 150px;}
+.width_work_time{ width: 150px;}
+.width_prick{ width: 125px;}
+.width_covid{ width: 125px;}
+.width_description{ width: 350px;}
+.width_transport{ width: 150px;}
+.width_knowledge{ width: 150px;}
+.width_type{ width: 150px;}
+.width_city{ width: 100px;}
+.width_text{ width: 800px;}
+
+.table_title{
+    text-align: center;
+    max-width: 1200px;
+    width: 100%;
+}
+.cabinet_btn {
+    margin: 5px 25px 0px 10px;
+    margin-button: 0px;}
+
+.find_label {
+    margin-top: 10px;
+    margin-right: 10px;}
+
+input[type="checkbox"]:checked + span{
+    background-color: red;
+}
+span .selected {
+    color: black;
+	font-size: 1.2em;
+	background-color: yellow;
+}
+.color_black {
+    color: black;
+	font-size: 1.0em;
+	background-color: white;
+}
+.table_body table{
+    width: 100%;
+    overflow: auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-bottom: none;
+}
+.table_body td{
+    text-align: left;
+    font-size: 0.8em;
+    padding: 3px;
+    vertical-align: top;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid black;
+}
